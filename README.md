@@ -1,4 +1,4 @@
-# Java Project: Minesweeper
+# C Project: Minesweeper
 
 ## About
 
@@ -7,9 +7,10 @@ A typical Minewseeper game with the typical rules. Reveal all tiles while avoidi
 
 ## Structure
 
-- `main.c` - Main function definition. Manages the game and the user's inputs.
+- `game.c` - Main function definition. Manages the game and the user's inputs.
 - `mineSweeper.c` - Creates the the board and populates the mines randomly. Additionally prints the board.
 - `getch.c` - Gets and returns a char input from the user without the requirement of pressing ENTER to finish.
+- `colorPrint.c` - Prints to the screen a given String with the given color (enum). Same as printf but with a color (String/Background).
 
 ## The Algorithm
 
